@@ -2,9 +2,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        Server_connection sc = new Server_connection();
+        //New object initializing the server_connection
+        ServerConnection SeverObject = new ServerConnection();
 
-        sc.FindClient();
+        SeverObject.FindClient();
+
 
     }
 }
